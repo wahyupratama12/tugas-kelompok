@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    background-color: #447290;
+    margin: 13px;
+    padding: auto;
+    border-radius: 20px;
+box-shadow: #447290;}
+.nav-links li:hover{
+    background-color: white;
+    color: red;
+}
+
+.nav-links a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links a:hover {
+    color: #ff0000;
+}
+
+/* Section styling */
+.section {
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+#misi {
+    background-color: #e0f7fa;
+}
+#misi a {
+    text-decoration: none;
+    color: rgb(45, 183, 204);
+    
+}
+#misi a:hover{
+    color:rgb(51, 255, 51);
+
+}
+   
+
+#tujuan {
+    background-color: #e8f5e9;
+}
+
+#tujuan a{
+    text-decoration: none;
+    color: rgb(87, 190, 103);
+}
+#tujuan a:hover{
+    color: rgb(51, 255, 51);
+}
+
+#inspirasi {
+    background-color: #fff3e0;
+}
+
+#inspirasi a{
+ text-decoration: none;
+ color: rgb(231, 141, 76);
+}
+#inspirasi a:hover{
+    color: rgb(51, 255, 51);
+}
+
+#pembuat {
+    background-color: #fbe9e7;
+}
+#pembuat a {
+    text-decoration: none;
+    color:   rgb(133, 109, 78);
+}
+#pembuat a:hover{
+    color: rgb(51, 255, 51);
+}
+
+/* Basic responsive design */
+@media (max-width: 768px) {
+    .nav-links li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .section {
+        padding: 1.5rem;
+    }
+}
+
