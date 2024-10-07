@@ -13,7 +13,7 @@ body {
 
 /* Navbar styling */
 .navbar {
-    background-color: transparent;
+    background-color: rgb(172, 172, 172);
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ body {
     display: inline-block;
     width: 80px;
     text-align: center;
-    background-color: #447290;
+    background-color: #000000;
     margin: 13px;
     padding: auto;
     border-radius: 20px;
@@ -45,7 +45,7 @@ box-shadow: #447290;}
 }
 
 .nav-links a {
-    color: rgb(170, 170, 170);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 17px;
 }
